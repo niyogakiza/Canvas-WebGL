@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4afd4997-b9fa-4ee5-95e8-d6142289f04e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/color-palette.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.04.50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.04.56.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.04.59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.13.42.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.13.46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.13.49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.14.21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.14.27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.14.37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.15.24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.15.30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.29.00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.29.59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.30.06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2019.01.05-21.33.44.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noiseFunction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,16 +55,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="7" />
-          <entry key="json" value="2" />
+          <entry key="js" value="8" />
+          <entry key="json" value="3" />
           <entry key="png" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="26" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -90,29 +74,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2270" />
+          <entry key="js" value="2771" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2270" />
+          <entry key="JavaScript" value="2771" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="genart" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="48" />
               <folding>
                 <element signature="e#555#2417#0" expanded="true" />
                 <element signature="e#718#1385#0" expanded="true" />
                 <element signature="e#1785#2414#0" expanded="true" />
                 <element signature="e#1901#2408#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webgl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -137,6 +133,7 @@
         <option value="$PROJECT_DIR$/color-palette.js" />
         <option value="$PROJECT_DIR$/noiseFunction.js" />
         <option value="$PROJECT_DIR$/sketch.js" />
+        <option value="$PROJECT_DIR$/webgl.js" />
       </list>
     </option>
   </component>
@@ -156,9 +153,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="720" />
   </component>
@@ -175,11 +171,6 @@
             <path>
               <item name="genart" type="b2602c69:ProjectViewProjectNode" />
               <item name="genart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="genart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="genart" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,23 +213,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546712544470</updated>
-      <workItem from="1546712546069" duration="9804000" />
+      <workItem from="1546712546069" duration="14902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9804000" />
+    <option name="totallyTimeSpent" value="14902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="720" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Compare Directories" />
       <window_info id="Storybook" side_tool="true" />
       <window_info id="DB Browser" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13731825" />
+      <window_info active="true" id="Favorites" sideWeight="0.50085473" side_tool="true" visible="true" weight="0.13731825" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991453" visible="true" weight="0.13731825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="RNConsole" weight="0.32991454" />
@@ -282,9 +273,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images/2019.01.05-18.41.40.png">
       <provider selected="true" editor-type-id="images" />
@@ -384,16 +372,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="48" />
           <folding>
             <element signature="e#555#2417#0" expanded="true" />
             <element signature="e#718#1385#0" expanded="true" />
             <element signature="e#1785#2414#0" expanded="true" />
             <element signature="e#1901#2408#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webgl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
