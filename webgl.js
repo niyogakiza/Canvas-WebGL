@@ -1,6 +1,8 @@
 const canvasSketch = require('canvas-sketch');
 const random = require('canvas-sketch-util/random');
 const palettes = require('nice-color-palettes');
+const eases = require('eases');
+const BezierEasing = require('bezier-easing');
 
 // Ensure ThreeJS is in global scope for the 'examples/'
 global.THREE = require('three');
@@ -9,12 +11,15 @@ global.THREE = require('three');
 require('three/examples/js/controls/OrbitControls');
 
 const settings = {
-  // Make the loop animated
-  animate: true,
-  // Get a WebGL canvas rather than 2D
-  context: 'webgl',
-  // Turn on MSAA
-  attributes: { antialias: true }
+    dimensions: [512, 512],
+    fps: 24, //frame per second
+    duration: 4, // 4 seconds
+    // Make the loop animated
+    animate: true,
+    // Get a WebGL canvas rather than 2D
+    context: 'webgl',
+    // Turn on MSAA
+    attributes: { antialias: true }
 };
 
 const sketch = ({ context }) => {
@@ -55,11 +60,13 @@ const sketch = ({ context }) => {
   }
 
   // scene.add(new THREE.AmbientLight('orange'));
-  scene.add(new THREE.AmbientLight('hsl(0, 0%, 40%'));
+  scene.add(new THREE.AmbientLight('hsl(0, 0%, 40%)'));
 
   const light = new THREE.DirectionalLight('white', 1);
   light.position.set(0, 0, 4); // x, y, z
   scene.add(light);
+
+  const easeFn = BezierEasing(0.67, 0.03, 0.29, 0.99);
 
 
   // draw each frame
@@ -86,8 +93,14 @@ const sketch = ({ context }) => {
         camera.updateProjectionMatrix();
     },
     // Update & render your scene here
-    render () {
-      renderer.render(scene, camera);
+    render ({ playhead }) {
+        // scene.rotation.y = time;
+        // scene.rotation.x = time;
+       // scene.rotation.z = Math.sin(playhead * Math.PI);
+      //  scene.rotation.z = Math.sin(playhead * Math.PI * 2);
+        const t = Math.sin(playhead * Math.PI * 2) * 2;
+        scene.rotation.z = easeFn(t);
+        renderer.render(scene, camera);
     },
     // Dispose of events & renderer for cleaner hot-reloading
     unload () {
@@ -98,3 +111,5 @@ const sketch = ({ context }) => {
 };
 
 canvasSketch(sketch, settings);
+
+// to generate GIF   click in the browser and press cmd + shift + s and make sure you have specified duration
